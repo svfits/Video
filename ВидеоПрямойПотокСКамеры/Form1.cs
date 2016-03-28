@@ -24,7 +24,7 @@ namespace ВидеоПрямойПотокСКамеры
                 axVLCPlugin21.playlist.add("rtsp://SuAP:17GhbtvGhbtv@192.168.102.99:554/live1.sdp");
                 axVLCPlugin21.playlist.play(); 
             }
-            catch (Exception ex)
+            catch (Exception ex)    
             {
                 MessageBox.Show("ой что то произошло :( перезапустите приложение  " + ex);
             }
